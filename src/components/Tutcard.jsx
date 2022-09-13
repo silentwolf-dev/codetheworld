@@ -1,14 +1,14 @@
-export const TutCard = ({id, title, description, benifits, btnText})=>{
+export const TutCard = ({ id, title, price, description, benifits, btnText }) => {
     return (
         <div className="tutcard">
-             <h3 className="tutcard-title">{title}</h3>
-             <div><p>{description}</p></div>
+            <h3 className="tutcard-title">{title}</h3>
+            <h4 className="tut-price">{price}</h4>
+            <div><p className="tut-description">{description}</p></div>
 
-
-             <ul className="tutcard-benifits">
+            <ul className="tutcard-benifits">
                 {
-                    benifits.map((benifit)=>{
-                        return(
+                    benifits.map((benifit) => {
+                        return (
                             <li key={id}>{benifit}</li>
                         )
                     })

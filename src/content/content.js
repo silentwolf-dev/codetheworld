@@ -10,9 +10,10 @@ export const TutCardsData = [
     {   
         
         id: 1,
-        title: "React native",
+        price: "$15",
+        title: "Monthly plan",
         descripton:`You will be able to build moblie apps`,
-        btn: "buy",
+        btn: "Join now",
         benifits: [
             "Build moblie apps",  
         ],
@@ -22,9 +23,10 @@ export const TutCardsData = [
     {   
         
         id: 2,
-        title: "React native",
+        price: "$20",
+        title: "Yearly Plan",
         descripton:`You will be able to build moblie apps`,
-        btn: "buy",
+        btn: "Join now",
         benifits: [
             "Build moblie apps",  
         ],

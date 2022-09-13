@@ -1,0 +1,54 @@
+
+@media (max-width: 736px){
+    .footer {
+        display: block;
+        width: 100%;
+        padding-top: 8px ;
+        background-color: #0f172a;
+        color: white;
+    }
+
+    .footer-title {
+       text-align: center;
+       color: #1d4ed8;
+    }
+
+    .footer-text {
+        text-align: center;
+    }
+
+    .icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-ig {
+     
+        margin: 2px;
+    }
+
+    .footer-yt {
+       margin: 2px;
+    }
+
+    .ig-img{
+        border-radius: 7px;
+    }
+
+    .yt-img {  
+        border-radius: 5px;
+    }
+    
+}
+
+@media only screen and (min-width: 736px) and (max-width: 1366px){
+    .footer {
+        background-color: #151617;
+        padding: 15px;
+        font-family: "Roboto-Regular";
+        text-align: center;
+        color: aliceblue;
+        margin-top: 0;
+    }  
+}

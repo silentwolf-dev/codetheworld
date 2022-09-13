@@ -1,6 +1,7 @@
+import "../css/navbar.css"
 import {navlinks} from "../content/navlinks"
 import { Link } from "react-router-dom";
-import "../css/moblie.css"
+
 import {Turn as Hamburger} from "hamburger-react";
 import { useState } from "react";
 
@@ -11,14 +12,17 @@ export const Navbar = ()=>{
     return (
         <div className="navbar">
            
-           <div className="nav-menu">
+           <h1 className="nav-logo mobile-hidden">IZB</h1>
+         
+           <div className="nav-menu mobile">
 
             <h1 className="nav-logo">IZB</h1>
 
              <div className="ham-menu">
-                <Hamburger color="#1d4ed8" toggled={isOpen} toggle={setOpen}/>
+                <Hamburger color="white" toggled={isOpen} toggle={setOpen}/>
              </div>
-            
+
+
             </div>
                <ul className={`nav-links ${ isOpen ? "flex": "hidden"}`}>
                    {
@@ -26,6 +30,7 @@ export const Navbar = ()=>{
                        return (
                           <li
                            className="links"
+                           onClick={(e) => {setOpen((p) => !p)}}
                           >
                             <Link className="link" to={value.route}>{value.name}</Link>
                           </li>

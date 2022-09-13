@@ -1,4 +1,4 @@
-@media (max-width: 696px) {
+@media (max-width: 736px) {
     .tutorplan-title {
         text-align: center;
         color:  #1d4ed8;
@@ -7,7 +7,7 @@
 
     .tutcard-container {
         display: flex;
-        background-color: #000000;
+        background-color: #353535;
         flex-direction: row;
         align-items: center;
         box-sizing: border-box;
@@ -24,37 +24,111 @@
         position: relative;
         padding: 15px;
         border-radius: 8px;
-
         margin-left: 8px;
         margin-right: 55px;
         width: 400px;
     }
 
-    .tutcard-benifits {
-        
+    .tutcard-benifits { 
         width: 256px;
     }
 
     .tutcard-title {
-        font-size: larger;
         color: white;
-
+        margin: 5px;
         text-align: center;
         
     }
 
     .tutcard-btn {
         padding: 15px;
-        border-radius: 8px;
+        border-radius: 4px;
         outline: none;
         text-align: center;
         border-style: none;
         width: 100px;
         color: white;
         position: relative;
-        left: 100px;
-        background-color: #2563eb;
+        background-color: #59900c;
     }
 
+    .tut-price {
+       text-align: center;
+       background-color: #65a30d;
+       border-radius: 3px;
+       padding: 8px;
+       color: white;
+       font-size: x-large;
+    }
     
+}
+
+
+
+@media only screen and (min-width: 736px) and (max-width: 1366px) {
+    .tutcard-container {
+        background-color:  #353535;
+        position: relative;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        overflow-x: auto;
+    }
+
+
+    .tut-intro-text {
+        position: absolute;
+        top: 0;
+    }
+
+    .tutcard {
+        width: 300px;
+        padding: 10px;
+        background-color: #334155;
+        margin-top: 67px;
+        margin-left: 45px;
+        margin-bottom: 8px;
+        border-radius: 4px;
+
+    }
+
+    .tutcard-title {
+        color: aliceblue;
+        text-align: center;
+        font-size: larger;
+        border-radius: 2px;
+
+    }
+
+   
+    .tut-intro-link {
+       text-decoration: none;
+       color: aliceblue;
+    }
+    .tutcard-benifits {
+      list-style: none;
+      color: whitesmoke;
+    }
+
+    .tut-price {
+        text-align: center;
+        padding: 15px;
+        margin: auto;
+        background-color: #3b7fec;
+        border-radius: 2px;
+        width: 55px;
+    }
+
+    .tutcard-btn {
+       padding: 15px;
+       margin: auto;
+       background-color: #3b7fec;
+       border-style: none;
+    }
+
+    .tut-description {
+        color: black;
+    }
+
+
 }
