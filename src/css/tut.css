@@ -1,0 +1,60 @@
+@media (max-width: 696px) {
+    .tutorplan-title {
+        text-align: center;
+        color:  #1d4ed8;
+    }
+   
+
+    .tutcard-container {
+        display: flex;
+        background-color: #000000;
+        flex-direction: row;
+        align-items: center;
+        box-sizing: border-box;
+        width: 100%;
+        height: 400px;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        white-space: nowarp;
+    }
+    
+    .tutcard {
+        background-color:  #334155;
+        width: fit-content;
+        position: relative;
+        padding: 15px;
+        border-radius: 8px;
+
+        margin-left: 8px;
+        margin-right: 55px;
+        width: 400px;
+    }
+
+    .tutcard-benifits {
+        
+        width: 256px;
+    }
+
+    .tutcard-title {
+        font-size: larger;
+        color: white;
+
+        text-align: center;
+        
+    }
+
+    .tutcard-btn {
+        padding: 15px;
+        border-radius: 8px;
+        outline: none;
+        text-align: center;
+        border-style: none;
+        width: 100px;
+        color: white;
+        position: relative;
+        left: 100px;
+        background-color: #2563eb;
+    }
+
+    
+}
