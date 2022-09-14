@@ -1,0 +1,35 @@
+@media only screen and (max-width: 786px){
+    .Coursepage {
+       margin-top: 55px;
+       background-color: #3d3d3c;
+    }
+
+    .coursecard-container {
+      display: flex;
+      align-items: center;
+      overflow-x: auto;
+      width: 100%;
+    }
+
+   
+
+
+    .coursecard {
+        display: block;
+        display: none;
+        padding: 10px;
+        display: none;
+        background-color: #466085;
+        margin: 45px;
+        max-height: 390px;
+        border-radius: 1px;
+        flex: 0 0 auto;
+    }
+
+    .coursecard-benefits-list {
+        background-color: white;
+    }
+
+  
+    
+}
