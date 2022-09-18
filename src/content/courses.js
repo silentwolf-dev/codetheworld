@@ -2,11 +2,9 @@ export const cardbase = [
     {
         title: "JavaScript",
         description: "learn javascript and build amazing things, get a javScript cerfitake",
-        btn: "button",
+        btn: "Purchase course",
         benifits: [
-            'certificate',
-            'example',
-            'example',
+            'free',
 
         ]
     },
@@ -15,11 +13,22 @@ export const cardbase = [
     {
         title: "JavaScript",
         description: "learn javascript and build amazing things, get a javScript cerfitake",
-        btn: "rgrdgrfdbfbfd",
+        btn: "Purchase course",
         benifits: [
             'certificate',
-            'example',
-            'example',
+            'build webapps',
+            'free',
+
+        ]
+    },
+
+
+    {
+        title: "React",
+        description: "learn javascript and build amazing things, get a javScript cerfitake",
+        btn: "Purchase course",
+        benifits: [
+            'free',
 
         ]
     },
@@ -28,24 +37,10 @@ export const cardbase = [
     {
         title: "JavaScript",
         description: "learn javascript and build amazing things, get a javScript cerfitake",
-        btn: "rgrdgrfdbfbfd",
+        btn: "Purchase course",
         benifits: [
             'certificate',
-            'example',
-            'example',
-
-        ]
-    },
-
-
-    {
-        title: "JavaScript",
-        description: "learn javascript and build amazing things, get a javScript cerfitake",
-        btn: "rgrdgrfdbfbfd",
-        benifits: [
-            'certificate',
-            'example',
-            'example',
+            'free',
 
         ]
     },
@@ -55,11 +50,10 @@ export const cardbase = [
     {
         title: "JavaScript",
         description: "learn javascript and build amazing things, get a javScript cerfitake",
-        btn: "text",
+        btn: "Purchase course",
         benifits: [
             'certificate',
-            'example',
-            'example',
+            'free',
 
         ]
     },
@@ -67,11 +61,10 @@ export const cardbase = [
     {
         title: "JavaScript",
         description: "learn javascript and build amazing things, get a javScript cerfitake",
-        btn: "text",
+        btn: "Purchase course",
         benifits: [
             'certificate',
-            'htg',
-            'dwfewfg',
+           
 
         ]
     }

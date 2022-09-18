@@ -23,22 +23,9 @@
         justify-content: center;
     }
 
-    .footer-ig {
-     
-        margin: 2px;
-    }
-
-    .footer-yt {
-       margin: 2px;
-    }
-
-    .ig-img{
-        border-radius: 7px;
-    }
-
-    .yt-img {  
-        border-radius: 5px;
-    }
+   .footer-link-icon {
+     margin-left: 8px;
+   }
     
 }
 
@@ -50,5 +37,9 @@
         text-align: center;
         color: aliceblue;
         margin-top: 0;
-    }  
+    } 
+    
+    .footer-link-icon {
+        margin-left: 8px;
+      }
 }

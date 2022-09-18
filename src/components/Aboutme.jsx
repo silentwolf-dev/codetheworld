@@ -1,4 +1,4 @@
-import AboutMeLogo from "../assets/image.about.jpg"
+
 import { aboutmetext } from "../content/content";
 
 

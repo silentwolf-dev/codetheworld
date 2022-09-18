@@ -1,3 +1,4 @@
+
 export const CourseCard = ({
     title,
     description,
@@ -6,15 +7,18 @@ export const CourseCard = ({
 })=>{
     return(
        <div  className="coursecard">
+        <div className="coursecard-header">
              <h2 className="coursecard-title">{title}</h2>
+            <p className="coursecard-price">$0</p>
              <p className="cursecard-title">{description}</p>
-
+        </div>
              <ul className="coursecard-benefits-list">
                 {
-                    benefits.map((v)=>{
+                    benefits.map((benefit)=>{
                         return(
                             <li className="cursecard-benifits">
-                              {v}
+                              <span class="material-icons checkbox-icon">check_box</span>
+                              {benefit}
                             </li>
                         );   
                     })
