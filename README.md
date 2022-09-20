@@ -1,6 +1,4 @@
 ![image](src/assets/progess.PNG "Progess")
 
 
-## class names 
-
-> `App`
+> Free to use long as you `customize` the `source code` used.

@@ -8,7 +8,7 @@ import { Contact } from "../Contact"
 
 export const Home = () => {
   return (
-    <div className="home">
+    <div className="homepage">
       <div className="aboutme-section">
         <div className="aboutme-card-container">
           <AboutMeCard />
