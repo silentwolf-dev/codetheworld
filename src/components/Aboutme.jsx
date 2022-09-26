@@ -8,6 +8,7 @@ export const AboutMeCard = () => {
             <h2 className="aboutme-title">
                 About me
             </h2>
+            
             <div className="aboutme-content">
                 <p className="aboutme-text">{aboutmetext}</p>
             </div>

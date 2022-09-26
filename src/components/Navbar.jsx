@@ -27,14 +27,11 @@ export const Navbar = ()=>{
                <ul className={`nav-links ${ isOpen ? "flex": "hidden"}`}>
                    {
                     navlinks.map((value)=>{
-                       return (
-                          <li
-                           className="links"
-                           onClick={(e) => {setOpen((p) => !p)}}
-                          >
-                            <Link className="link" to={value.route}>{value.name}</Link>
-                          </li>
-                       );
+                       return(
+                         <li className="links">
+                            <Link to={value.route} className={"link"}>{value.name}</Link>
+                         </li>
+                       )  
                     })
                    }
                </ul>

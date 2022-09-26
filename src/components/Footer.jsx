@@ -1,4 +1,4 @@
-import { IconDisplay } from "./socialIcons";
+import { IconDisplay } from "./universal/socialIcons";
 import "../css/footer.css"
 
 export const Footer = () => {

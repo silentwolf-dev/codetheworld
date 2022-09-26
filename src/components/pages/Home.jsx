@@ -4,7 +4,6 @@ import "../../css/tut.css"
 import { TutCard } from "../Tutcard"
 import { Link } from "react-router-dom"
 import { TutCardsData } from "../../content/content"
-import { Contact } from "../Contact"
 
 export const Home = () => {
   return (

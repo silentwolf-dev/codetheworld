@@ -1,0 +1,82 @@
+@media only screen and (min-width: 245px) and (max-width: 736px){
+    .signup-page {
+       margin-top: 54px;
+    }
+   
+    .signupform-container {
+       position: relative;
+       display: flex;
+       align-items: center;
+       background: linear-gradient(to right, #bab6b6, #716a6a);
+       width: 100%;
+       justify-content: center;
+    }
+
+    .signup-form {
+        position: relative;
+        margin-top: 40px;
+        margin-bottom: 23px;
+        align-items: center;
+        padding: 8px 19px;
+        border-radius: 5px;
+        display: flex;
+        width: 70%;
+        flex-direction: column;
+        background: linear-gradient(to right, #647c9d, #3390d6) ;
+    }
+
+
+    .signup-inputs {
+        padding: 8px 4px;
+        outline: none;
+        border-radius: 4px;
+        font-size: large;
+        width: 100%;
+        border-style: none;
+    }
+
+    .signup-input-container{
+        width: 80%;
+    }
+
+    .signup-btn-container {
+        width: 100%;
+        padding: 10px 0px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 8px;
+        position: relative;
+        align-content: center;
+    }
+    .signup-titles {
+        margin-bottom: 8px;
+    }
+
+    .signup-btn {
+        padding: 10px 10px;
+        font-size: large;
+        text-align: center;
+        border-style: none;
+        outline: none;
+        border-radius: 3px;
+        background-color: #4db2ff;
+    }
+
+    .signup-errormessage-display {
+      margin-top: 8px;
+      text-align: center;
+      border-radius: 5px;
+      padding: 0px 5px;
+      width: 100%;
+    }
+
+
+    .signup-errormessage {
+        color: #731212;  
+        display: block;     
+    }
+
+
+    
+}

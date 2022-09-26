@@ -1,4 +1,4 @@
-import { CourseCard } from "../Coursecard";
+import { CourseCard } from "../universal/Coursecard";
 import "../../css/course.css"
 import { cardbase } from "../../content/courses";
 export const Course = ()=> {

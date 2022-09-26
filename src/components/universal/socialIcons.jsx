@@ -1,6 +1,6 @@
-import Instagram from "../assets/instagram.png"
-import Youtube  from "../assets/youtube.png"
-import Discord from "../assets/discord.png"
+import Instagram from "../../assets/instagram.png"
+import Youtube  from "../../assets/youtube.png"
+import Discord from "../../assets/discord.png"
 
 
 export const IconDisplay = ()=> {

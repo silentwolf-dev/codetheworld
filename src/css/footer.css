@@ -3,8 +3,9 @@
     .footer {
         display: block;
         width: 100%;
+        z-index: 10;
         padding-top: 8px ;
-        background-color: #0f172a;
+        background-color: #0066AE;
         color: white;
     }
 
@@ -31,7 +32,7 @@
 
 @media only screen and (min-width: 736px) and (max-width: 1366px){
     .footer {
-        background-color: #151617;
+        background-color: #0066AE;
         padding: 15px;
         font-family: "Roboto-Regular";
         text-align: center;
