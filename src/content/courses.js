@@ -1,71 +1,35 @@
-export const cardbase = [
+import img from "../assets/course-image.jpg"
+
+export const courses = [
     {
-        title: "JavaScript",
-        description: "learn javascript and build amazing things, get a javScript cerfitake",
-        btn: "Purchase course",
-        benifits: [
-            'free',
-
-        ]
-    },
-
-
-    {
-        title: "JavaScript",
-        description: "learn javascript and build amazing things, get a javScript cerfitake",
-        btn: "Purchase course",
-        benifits: [
-            'certificate',
-            'build webapps',
-            'free',
-
-        ]
-    },
-
-
-    {
-        title: "React",
-        description: "learn javascript and build amazing things, get a javScript cerfitake",
-        btn: "Purchase course",
-        benifits: [
-            'free',
-
-        ]
-    },
-
-
-    {
-        title: "JavaScript",
-        description: "learn javascript and build amazing things, get a javScript cerfitake",
-        btn: "Purchase course",
-        benifits: [
-            'certificate',
-            'free',
-
-        ]
-    },
-
-
-
-    {
-        title: "JavaScript",
-        description: "learn javascript and build amazing things, get a javScript cerfitake",
-        btn: "Purchase course",
-        benifits: [
-            'certificate',
-            'free',
-
-        ]
+      id: 1,
+      name: "javscript",
+      author: "john brown",
+      img: img,
+      description: "you will gain the basic knowlage of html",
+      price: "$20",
+      tags: ["javascript"]
     },
 
     {
-        title: "JavaScript",
-        description: "learn javascript and build amazing things, get a javScript cerfitake",
-        btn: "Purchase course",
-        benifits: [
-            'certificate',
-           
+        id: 1,
+        name: "css",
+        author: "imani brown",
+        img: img,
+        description: "you will gain the basic knowlage of css",
+        price: "$20",
+        tags: ["css"]
+    },
 
-        ]
+    {
+        id: 1,
+        name: "html",
+        author: "omari brown",
+        img: img,
+        description: "you will gain the basic knowlage of css",
+        price: "$20",
+        tags: ["css"]
     }
+
+
 ]

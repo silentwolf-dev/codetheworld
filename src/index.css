@@ -88,3 +88,16 @@ code {
     display: none;
    }
 }
+
+
+.btn-pry {
+  padding: 15px 15px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #1955bd;
+}
+
+.btn-pry:hover {
+  background-color: #1d4c9f;
+  transition: ease-in;
+}

@@ -1,18 +1,16 @@
 import { CourseCard } from "../universal/Coursecard";
-import "../../css/course.css"
-import { cardbase } from "../../content/courses";
+import "../../css/pages/course.css"
+import { courses} from "../../content/courses";
 export const Course = ()=> {
     return(
         <div className="Coursepage">
               <div className="coursecard-container">
                  { 
-                    cardbase.map((value)=>{
+                    courses.map((value)=>{
                         return(
                            <CourseCard
                              title={value.title}
                              description={value.description}
-                             buttonTitle={value.btn}
-                             benefits={value.benifits}
                            />
                         )
                     })

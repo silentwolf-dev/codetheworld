@@ -1,41 +1,22 @@
-import { AboutMeCard } from "../Aboutme"
-import "../../css/aboutme.css"
-import "../../css/tut.css"
-import { TutCard } from "../Tutcard"
-import { Link } from "react-router-dom"
-import { TutCardsData } from "../../content/content"
+import '../../css/pages/home.css'
+import { Link } from 'react-router-dom'
+import { CourseSearch } from '../CourseSearch.jsx'
+import { courses } from '../../content/courses'
 
-export const Home = () => {
+
+
+
+export const Home = (props) => {
   return (
     <div className="homepage">
-      <div className="aboutme-section">
-        <div className="aboutme-card-container">
-          <AboutMeCard />
+        <div className='home-intro-container'>
+            <h1>Welcome to codeMastery</h1>
+            <p>Search for a course or visit <Link to="/explore">Explore</Link>to view courses</p>
+            <CourseSearch
+              placeholder={"search something"}
+              courselist={courses}
+            />
         </div>
-        <div className="tutcard-container">
-          <h2 className="tut-intro-text  mobile-hidden">
-            <Link to="/courses" className="tut-intro-link">
-              learn to code
-            </Link>
-          </h2>
-          {
-            TutCardsData.map((values) => {
-              return (
-                <TutCard
-                  id={values.id}
-                  price={values.price}
-                  title={values.title}
-                  btnText={values.btn}
-                  description={values.descripton}
-                  benifits={values.benifits}
-                />
-              )
-            })
-          }
-
-
-        </div>
-      </div>
     </div>
   )
 }

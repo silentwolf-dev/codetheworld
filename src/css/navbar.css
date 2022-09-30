@@ -116,20 +116,30 @@
   }
 
   .links {
-    padding: 15px;
-    width: 55px;
+    padding: 8px 15px;
+    width: fit-content;
+    border-radius: 5px;
     margin-left: 5px;
   }
 
-  links:hover{
-    background-color: red;
-    cursor: pointer;
+  .links:hover {
+    background-color: #5A98E6;
   }
+
 
   .link {
     color: white;
-    font-size: large;
+    text-align: center;
     text-decoration: none;
+  }
+
+  .signup-login-link {
+    margin-right: 20px;
+    border: 2px solid #00D0A6;
+    width: fit-content;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
   }
 
 }

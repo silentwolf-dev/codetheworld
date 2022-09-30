@@ -28,7 +28,7 @@ export const Navbar = ()=>{
                    {
                     navlinks.map((value)=>{
                        return(
-                         <li className="links">
+                         <li className={`links ${value.id  === 3 ? "signup-login-link" : ""}`}>
                             <Link to={value.route} className={"link"}>{value.name}</Link>
                          </li>
                        )  

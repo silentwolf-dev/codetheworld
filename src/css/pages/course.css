@@ -8,7 +8,7 @@
        z-index: 1;
        height: 100%;
        align-items: center;
-       justify-content: start;
+       justify-content: flex-start;
        flex-direction: column;
        background-color: #F3FAFF;
        height: 514px;
@@ -121,10 +121,11 @@
 
     .coursecard-container {
         display: flex;
+        overflow-x: auto;
+        justify-content: center;
         margin-top: 25px;
         align-items: center;
         background: #d8f0ff;
-        overflow-x: auto;
         width: 100%;
     }
 
@@ -138,7 +139,7 @@
     .coursecard-img {
         width: 99%;
         height: 98%;
-        border-radius: 1;
+        border-radius: 1px;
     }
     
 
