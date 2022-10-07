@@ -10,7 +10,7 @@
        align-items: center;
        justify-content: flex-start;
        flex-direction: column;
-       background-color: #F3FAFF;
+       background: #addbf7;
        height: 514px;
     }
 
@@ -18,7 +18,6 @@
         position: relative;
         background-color: inherit;
         z-index: 2;
-        background-color: #d8f0ff;
         width: 100%;
         display: flex;
         height: fit-content;
@@ -124,6 +123,7 @@
         overflow-x: auto;
         justify-content: center;
         margin-top: 25px;
+        background: #addbf7;
         align-items: center;
         background: #d8f0ff;
         width: 100%;
@@ -150,7 +150,6 @@
        flex-direction: column;
        align-items: center;
        position: relative;
-       background: #addbf7;
        margin: 25px;
        flex: 0 0 auto;
        width: 270px;

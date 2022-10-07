@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
-
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @font-face {
   font-family: "Roboto-black";
   src: url('./fonts/Roboto/Roboto-Black.ttf');
@@ -89,12 +88,28 @@ code {
    }
 }
 
+.pry-light {
+   color: #F3FAFF;
+}
+
+.pry-light-bg {
+  color: #F3FAFF;
+}
+
+.pry-bg-20 {
+  background-color: #daf0ff;
+}
+
+.pry-dark {
+  color: #0066AE ;
+}
 
 .btn-pry {
-  padding: 15px 15px;
-  border-radius: 20px;
+  padding: 15px 10px;
+  border-radius: 5px;
+  border-style: none;
   text-align: center;
-  background-color: #1955bd;
+  background-color: #3176ed;
 }
 
 .btn-pry:hover {

@@ -15,6 +15,7 @@ export const Home = (props) => {
             <CourseSearch
               placeholder={"search something"}
               courselist={courses}
+              buttonTitle={"search"}
             />
         </div>
     </div>
