@@ -1,15 +1,95 @@
 @media (max-width: 736px) {
     .homepage {
         margin-top: 55px;
-        height: 100%;
+        padding: 20px 0;
         background-color:  #addbf7; 
     }
-   
-  
 
 
+    .search-container{
+        position: sticky;
+        margin-top: auto;
+        top: 55px;
+        background-color: black;
+        width: 100%;
+    }
 
-    
 
+ 
+
+    .searchbar{
+        width: fit-content;
+        margin: auto;
+        padding: 8px 0px;
+        z-index: 10;
+        width: 100%;
+    }
+
+    .homepage-mview{
+        width: 94%;
+    }
+
+    .taglist-container {
+        display: flex;
+        list-style: none;
+        color: white;
+        padding: 0;
+        align-items: center;
+        flex-direction: row; 
+    }
+
+    .taglist-container li {
+        color: black;
+        margin-left:0;
+        margin-right: 10px;
+        padding: 2px 8px;
+        font-size: 11px;
+        background-color: blueviolet;
+    }
+
+    .trending-tags-display {
+        padding: 0;
+        text-align: center;
+    }
+    .home-intro-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .home-intro-container h1 {
+        font-size: 25px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .home-intro-container h1 span{
+       color: rgb(72, 72, 223);
+    }
+
+
+    .home-intro-container p {
+        text-align: center;
+        margin-top: 0;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .benefits-sections  div {
+        display: flex;
+        align-items: center;
+        padding: 8px 0;
+    }
+
+    .benfits-img {
+        width: 45%;
+        height: 200px;
+    }
+
+    .benefit-card2 {
+       flex-direction: row-reverse;
+    }
     
 }

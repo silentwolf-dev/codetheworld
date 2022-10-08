@@ -1,14 +1,14 @@
 /** @format */
 import ".././css/components/searchbar.css";
 
-export const CourseSearch = ({ buttonTitle, placeholder, courselist }) => {
+export const CourseSearch = ({className, buttonTitle, placeholder, courselist, hidelist}) => {
 	return (
-		<div className='searchbar'>
-			<div className='search-input-container center'>
+		<div className={`searchbar ${className}`}>
+			<div className='search-input-container  homepage-mview'>
 				<input type='text' className='search-input' placeholder="search javaScript, CSS, etc..." />
 				<button className="search-btn">search <span className="material-icons">search</span></button>
 			</div>
-			<ul className='search-content-container center hidden-sc'>
+			<ul className={`search-content-container ${hidelist === true ? "hidelist": " "}`}>
 				{courselist.map((v) => {
 					return (
 						<li className='search-content'>
