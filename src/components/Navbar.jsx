@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import { Turn as Hamburger } from "hamburger-react";
 import { useState } from "react";
 
-export const Navbar = () => {
+const Navbar = () => {
 	const [isOpen, setOpen] = useState(false);
 
 	return (
@@ -36,3 +36,5 @@ export const Navbar = () => {
 		</div>
 	);
 };
+
+export default Navbar;

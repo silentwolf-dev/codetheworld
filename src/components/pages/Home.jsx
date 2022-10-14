@@ -2,14 +2,14 @@
 
 import "../../css/pages/home.css";
 import { Link } from "react-router-dom";
-import img from '../../assets/offer.png'
-import { CourseSearch } from "../CourseSearch.jsx";
+import img from "../../assets/offer.png";
+import CourseSearch from "../CourseSearch";
 import { courses } from "../../content/courses";
 import "../../css/pages/home.css";
-import { DisplayTags } from "../DisplayTags";
+import DisplayTags from "../DisplayTags";
 const tags = ["css", "c#", "javascript", "html"];
 
-export const Home = (props) => {
+const HomePage = (props) => {
 	return (
 		<div className='homepage'>
 			<div className='home-intro-container'>
@@ -20,7 +20,7 @@ export const Home = (props) => {
 					You can find over 100+ courses based on what on your topic or visit{" "}
 					<Link to='/explore'>Explore</Link> to view courses
 				</p>
-				<div className="trending-tags-display">
+				<div className='trending-tags-display'>
 					<span>Top five trending tags</span>
 					<DisplayTags tags={tags} />
 					<CourseSearch
@@ -42,28 +42,33 @@ export const Home = (props) => {
 				/>
 			</div>
 
+			<div className='benefits-sections'>
+				<div className='benefit-card1 b-cards'>
+					<img className='benfits-img' src={img} alt='benifit' />
+					<div>
+						<h3>create courses</h3>
+						<p>create courses and share it with others allow</p>
+					</div>
+				</div>
 
-			<div className="benefits-sections">
-                   <div  className="">
-				      <img  className="benfits-img" src={img} alt="" />
-					   <h3>create courses</h3>
-					   <p>create courses and share it with others allow</p>
-					</div> 
+				<div className='benefit-card2  b-cards'>
+					<img className='benfits-img' src={img} alt='beneifit' />
+					<div>
+						<h3>create courses</h3>
+						<p>create courses and share it with others allow</p>
+					</div>
+				</div>
 
-					<div  className="">
-						<div className="benefit-card2">
-							<img className="benfits-img" src={img} alt="" />
-						 <h3>create courses</h3>
-					     <p>create courses and share it with others allow</p>
-						</div>
-					</div> 
-
-					<div  className="">
-						<img className="benfits-img" src={img} alt="" />
-					   <h3>create courses</h3>
-					   <p>create courses and share it with others allow</p>
-					</div> 
+				<div className='benefit-card3  b-cards'>
+					<img className='benfits-img' src={img} alt='benefit' />
+					<div>
+						<h3>create courses</h3>
+						<p>create courses and share it with others allow</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
 };
+
+export default HomePage;

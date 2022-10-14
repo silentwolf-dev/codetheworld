@@ -1,13 +1,17 @@
-import { LoginForm } from "../Auth/Login";
+
 import "../../css/auth/signup.css"
+import LoginForm from "../Auth/Login"
 
 
-export const LoginPage = ()=>{
+const LoginPage = ()=>{
     return (
         <div className="loginpage">
           <div className="loginform-container">
-                <LoginForm/>
+             <LoginForm/>
           </div>
         </div>
     )
 }
+
+
+export default LoginPage

@@ -1,9 +1,9 @@
 /** @format */
 
-import { IconDisplay } from "./universal/socialIcons";
+import IconDisplay from "./universal/IconDisplay";
 import "../css/footer.css";
 
-export const Footer = () => {
+const Footer = () => {
 	return (
 		<div className='footer'>
 			<div className='footer-content'>
@@ -16,3 +16,5 @@ export const Footer = () => {
 		</div>
 	);
 };
+
+export default Footer;

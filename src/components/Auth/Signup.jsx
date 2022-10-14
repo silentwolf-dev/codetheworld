@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-export const SignupForm = ()=>{
+const SignupForm = ()=>{
     return(
        <form action="" method="post" className="signup-form">
            <div className="signup-input-container signup-username-container">
@@ -56,3 +56,6 @@ export const SignupForm = ()=>{
        </form>
     )
 }
+
+
+export default SignupForm;

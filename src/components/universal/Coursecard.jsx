@@ -1,5 +1,5 @@
 import  img  from "../../assets/course-image.jpg"
-export const CourseCard = ({title, description})=>{
+const CourseCard = ({title, description})=>{
     return(
       <div className="coursecard">
           <div className="coursecard-header">
@@ -17,3 +17,6 @@ export const CourseCard = ({title, description})=>{
       </div>
     )
 }
+
+
+export default CourseCard;

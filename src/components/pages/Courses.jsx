@@ -1,7 +1,7 @@
-import { CourseCard } from "../universal/Coursecard";
+import CourseCard from "../universal/Coursecard";
 import "../../css/pages/course.css"
 import { courses} from "../../content/courses";
-export const Course = ()=> {
+const CoursePage = ()=> {
     return(
         <div className="Coursepage">
               <div className="coursecard-container">
@@ -21,3 +21,4 @@ export const Course = ()=> {
     );
 }
 
+export default CoursePage;

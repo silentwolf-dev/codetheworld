@@ -9,9 +9,8 @@
     .search-container{
         position: sticky;
         margin-top: auto;
+        background-color: #006dbb;
         top: 55px;
-        background-color: black;
-        width: 100%;
     }
 
 
@@ -77,19 +76,22 @@
     }
 
 
-    .benefits-sections  div {
+    .benefits-sections.b-cards{
         display: flex;
         align-items: center;
         padding: 8px 0;
+        background: url("../../assets/wave-haikei.svg");
     }
+    
+   
 
     .benfits-img {
         width: 45%;
         height: 200px;
     }
 
-    .benefit-card2 {
-       flex-direction: row-reverse;
-    }
+    
+
+
     
 }

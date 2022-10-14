@@ -116,3 +116,21 @@ code {
   background-color: #1d4c9f;
   transition: ease-in;
 }
+
+
+#root {
+  height: 100%;
+  max-width: 100%;
+}
+
+
+body {
+  height: 100%;
+  max-width: 100%;
+
+}
+
+.App {
+  height: 100%;
+  max-width: 100%;
+}

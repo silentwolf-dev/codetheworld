@@ -1,6 +1,6 @@
 /** @format */
 
-export const DisplayTags = ({tags}) => {
+const DisplayTags = ({tags}) => {
 	return (
 		<ul className='taglist-container mobile'>
 			{tags.map((v) => {
@@ -9,3 +9,5 @@ export const DisplayTags = ({tags}) => {
 		</ul>
 	);
 };
+
+export default  DisplayTags;

@@ -3,20 +3,20 @@ const img = "https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=
 export const courses = [
     {
       id: 1,
-      name: "javscript | html | css",
+      name: "javscript",
       author: "john brown",
       img: img,
-      description: "You will gain the basic knowlage of html",
+      description: "learn the basic knowlage of html",
       price: "$20",
       tags: ["javascript"]
     },
 
     {
         id: 2,
-        name: "css - learn The fundation",
+        name: "css",
         author: "imani brown",
         img: img,
-        description: "You will gain the basic knowlage of css",
+        description: "css is the best way to design web",
         price: "$20",
         tags: ["css"]
     },
@@ -26,9 +26,9 @@ export const courses = [
         name: "html",
         author: "omari brown",
         img: img,
-        description: "You will gain the basic knowlage of css",
-        price: "$20",
-        tags: ["css"]
+        description: "learn how to code in html",
+        price: "0",
+        tags: ["css", 'free']
     }
 
 

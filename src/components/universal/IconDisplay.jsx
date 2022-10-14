@@ -21,3 +21,5 @@ export const IconDisplay = ()=> {
                 </div>
     );
 }
+
+export default IconDisplay;

@@ -1,7 +1,7 @@
-import { SignupForm } from "../Auth/Signup";
+import SignupForm from "../Auth/Signup";
 import "../../css/auth/signup.css"
 
-export const SignupPage =()=>{
+const SignupPage =()=>{
     return(
         <div className="signup-page">
            <div className="signupform-container">
@@ -10,3 +10,6 @@ export const SignupPage =()=>{
         </div>
     )
 }
+
+
+export default SignupPage;
